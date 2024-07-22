@@ -1,0 +1,4 @@
+conda create -n dibs  # creates new environment with the latest version of python.  3.12 as of 7/22/24
+conda activate dibs
+conda install numpy pandas geopy openpyxl  # namedlist is no longer maintained - convert to a dataclass??
+pip install namedlist  # installs namedlist v1.8 on 7/22/24
